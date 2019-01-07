@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+/* HEADER */
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(245, 22, 22);
+}
+
+/* NAVIGATION */
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    color: blue;
+}
+
+/* LOGO */
+
+.logo img{
+    height: 100px;
+}
+
+.logo{
+    text-align: right;
+    margin-right: 40px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-image: url('../img/jumbotron.jpg');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+}
+
+.info h1{
+    font-size: 60px;
+}
+
+.info h3{
+    font-size: 40px;
+    padding: 25px;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.productimage img{
+    height: 300px;
+}
+
+.productdesc{
+    padding: 30px;
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(245, 22, 22);
+}
+
+.training{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    
+}
+
+.trainingimage img{
+    height: 250px;
+}
+
+.trainingdesc{
+    padding: 30px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+.address{
+    margin-top: 30px;
+}
+
+.signature{
+    margin-top: 50px;
+}
+
