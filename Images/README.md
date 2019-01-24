@@ -1,0 +1,1 @@
+Hey all! I thought I would add an images folder to our repo in case anyone wants to add images to any of the md files. :) - Nicole
